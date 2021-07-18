@@ -1,4 +1,6 @@
-def tick(args)
+Maw!
+
+def tick
     $world ||= World.new
-    $world.tick(args)
+    $world.tick(nil)
 end

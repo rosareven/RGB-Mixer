@@ -1,9 +1,11 @@
+Maw!
+
 class RenderBackground < Draco::System
     filter BackgroundColour
 
-    tick(args) {
+    def tick
         entites.each do |e|
-            background_color = e.background_colour.colour
+            background_color = [0,0,0]
         end
-    }
+    end
 end
