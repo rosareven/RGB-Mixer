@@ -1,6 +1,9 @@
 Maw!
 
-def tick
-    $world ||= World.new
+init {
+    $world = World.new
+}
+
+tick {
     $world.tick(nil)
-end
+}
